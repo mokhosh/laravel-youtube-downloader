@@ -3,8 +3,8 @@
 namespace Mokhosh\LaravelYoutubeDownloader\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Mokhosh\LaravelYoutubeDownloader\LaravelYoutubeDownloaderServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

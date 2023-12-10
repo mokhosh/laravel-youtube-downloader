@@ -2,9 +2,9 @@
 
 namespace Mokhosh\LaravelYoutubeDownloader;
 
+use Mokhosh\LaravelYoutubeDownloader\Commands\LaravelYoutubeDownloaderCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Mokhosh\LaravelYoutubeDownloader\Commands\LaravelYoutubeDownloaderCommand;
 
 class LaravelYoutubeDownloaderServiceProvider extends PackageServiceProvider
 {
