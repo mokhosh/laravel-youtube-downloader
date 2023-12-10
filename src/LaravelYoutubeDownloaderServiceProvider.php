@@ -16,10 +16,6 @@ class LaravelYoutubeDownloaderServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('laravel-youtube-downloader')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel-youtube-downloader_table')
-            ->hasCommand(LaravelYoutubeDownloaderCommand::class);
+            ->name('laravel-youtube-downloader');
     }
 }
