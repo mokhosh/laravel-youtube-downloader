@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Mokhosh\LaravelYoutubeDownloader\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelYoutubeDownloaderCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-youtube-downloader';
 
     public $description = 'My command';
 

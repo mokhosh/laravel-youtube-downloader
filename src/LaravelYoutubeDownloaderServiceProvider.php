@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Mokhosh\LaravelYoutubeDownloader;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Mokhosh\LaravelYoutubeDownloader\Commands\LaravelYoutubeDownloaderCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class LaravelYoutubeDownloaderServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('laravel-youtube-downloader')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_laravel-youtube-downloader_table')
+            ->hasCommand(LaravelYoutubeDownloaderCommand::class);
     }
 }
